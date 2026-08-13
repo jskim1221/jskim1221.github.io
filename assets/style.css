@@ -187,8 +187,10 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .publication-list h3 a span { color: var(--accent); font: 500 0.78rem "DM Sans", sans-serif; }
 .publication-list p, .paper-card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 
+.working-paper-list { display: grid; gap: 14px; }
 .paper-card { display: flex; gap: 32px; align-items: center; justify-content: space-between; padding: 32px; background: var(--surface); }
 .paper-card .button { flex: 0 0 auto; }
+.paper-card .paper-status { display: inline-block; margin-top: 14px; padding: 4px 8px; color: var(--accent); background: var(--accent-light); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
 
 .teaching-list { border-top: 1px solid var(--ink); }
 .institution { display: grid; grid-template-columns: 320px 1fr; gap: 50px; padding: 48px 0; border-bottom: 1px solid var(--line); }
