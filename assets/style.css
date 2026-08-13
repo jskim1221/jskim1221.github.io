@@ -143,8 +143,7 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 
 .feature-card, .contact-card { min-height: 310px; padding: 40px; }
 .feature-card { border-right: 1px solid var(--line); }
-.card-number { color: var(--accent); font-size: 0.75rem; }
-.feature-card h2 { margin: 52px 0 12px; font: 500 2rem "Newsreader", serif; }
+.feature-card h2 { margin: 18px 0 12px; font: 500 2rem "Newsreader", serif; }
 .feature-card p { max-width: 340px; color: var(--muted); }
 .text-link { display: inline-block; margin-top: 14px; font-weight: 600; text-decoration: none; }
 .text-link span { color: var(--accent); margin-left: 6px; }
