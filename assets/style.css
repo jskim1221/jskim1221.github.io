@@ -246,6 +246,10 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .empty-state p { margin: 0; color: var(--muted); font-size: 0.82rem; }
 .lab-nickname { grid-column: 2; max-width: 700px; margin: -48px 0 0; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.82rem; font-style: italic; }
 .lab-nickname span { color: var(--ink); font-weight: 600; }
+.research-invitation { grid-column: 2; margin-top: 32px; padding: 30px 32px; border: 1px solid var(--line); background: var(--surface); }
+.research-invitation h3 { margin: 0 0 10px; font: 500 1.45rem "Newsreader", serif; }
+.research-invitation > p { max-width: 700px; margin: 0; color: var(--muted); font-size: 0.88rem; }
+.research-invitation .invitation-email { margin-top: 18px; color: var(--accent); font-weight: 600; }
 
 @media (max-width: 800px) {
   .site-header { min-height: 78px; }
@@ -266,6 +270,7 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
   .focus-grid article { min-height: 210px; }
   .people-content { grid-template-columns: 1fr; }
   .lab-nickname { grid-column: 1; margin-top: -34px; }
+  .research-invitation { grid-column: 1; }
 }
 
 @media (max-width: 520px) {
