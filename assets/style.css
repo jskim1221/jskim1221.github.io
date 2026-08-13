@@ -235,6 +235,10 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .student-categories span { font-size: 0.84rem; font-weight: 500; }
 .student-categories small { display: block; margin-top: 2px; color: var(--muted); font-size: 0.7rem; font-weight: 400; }
 .student-categories em { flex: 0 0 auto; color: var(--muted); font-size: 0.72rem; font-style: normal; }
+.student-categories .student-category-with-names { display: block; }
+.student-names { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 24px; margin: 12px 0 2px; padding: 0; list-style: none; }
+.student-names li { display: flex; justify-content: flex-start; gap: 7px; padding: 0; border: 0; font-size: 0.82rem; }
+.student-names li small { display: inline; margin: 0; font-family: "Noto Serif KR", serif; font-size: 0.75rem; }
 .project-list { min-width: 0; }
 .empty-state { min-height: 130px; padding: 32px; display: flex; align-items: flex-end; border: 1px solid var(--line); background: var(--surface); }
 .empty-state p { margin: 0; color: var(--muted); font-size: 0.82rem; }
@@ -275,6 +279,8 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
   .person-card { grid-template-columns: 1fr; }
   .person-marker { min-height: 70px; }
   .student-categories li { align-items: flex-start; flex-direction: column; gap: 2px; }
+  .student-names { grid-template-columns: 1fr; }
+  .student-names li { flex-direction: row; }
   .brand { gap: 6px; }
   .brand strong { font-size: 1.08rem; }
   .brand-lab { max-width: 94px; font-size: 0.65rem; line-height: 1.15; }
