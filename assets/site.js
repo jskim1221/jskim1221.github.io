@@ -15,8 +15,10 @@ document.querySelectorAll('[data-year]').forEach((element) => {
 if (window.labIdentity) {
   const labFields = {
     '[data-lab-name]': window.labIdentity.name,
+    '[data-lab-brand]': window.labIdentity.name,
     '[data-lab-tagline]': window.labIdentity.tagline,
-    '[data-lab-description]': window.labIdentity.description
+    '[data-lab-description]': window.labIdentity.description,
+    '[data-lab-informal]': window.labIdentity.informalName
   };
 
   Object.entries(labFields).forEach(([selector, value]) => {
