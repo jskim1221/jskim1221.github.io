@@ -204,6 +204,9 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .lab-heading h1 { margin: 18px 0 6px; font: 500 clamp(3rem, 5.6vw, 4.9rem)/0.98 "Newsreader", serif; letter-spacing: -0.055em; }
 .lab-tagline { margin: 0 0 28px; color: var(--accent); font-size: 0.88rem; font-weight: 600; letter-spacing: 0.04em; }
 .lab-introduction { max-width: 680px; margin: 0; color: var(--muted); font-size: 1.08rem; }
+.lab-introduction-ko { max-width: 720px; margin-top: 28px; padding: 22px 24px; border-left: 3px solid var(--accent); background: var(--surface); font-family: "Noto Serif KR", serif; word-break: keep-all; }
+.lab-introduction-ko p { margin: 0; color: #465149; font-size: 0.94rem; line-height: 1.85; }
+.lab-introduction-ko p + p { margin-top: 7px; }
 .lab-section { display: grid; grid-template-columns: 250px 1fr; gap: 50px; padding: 38px 0 80px; border-top: 1px solid var(--ink); }
 .section-label h2 { margin: 8px 0 0; font: 500 1.65rem "Newsreader", serif; }
 .section-label p { margin: 0; }
