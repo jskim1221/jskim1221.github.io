@@ -10,5 +10,6 @@ Static academic website for Jun Sung Kim, hosted with GitHub Pages.
 - `lab.html` — research lab placeholder
 - `assets/style.css` — site-wide visual design and responsive layout
 - `assets/site.js` — mobile navigation and copyright year
+- `assets/Jun_Sung_Kim_CV.pdf` — downloadable curriculum vitae
 
 The site has no build step or runtime dependencies. GitHub Pages can publish it directly from the repository root.
