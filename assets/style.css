@@ -237,10 +237,10 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .student-categories em { flex: 0 0 auto; color: var(--muted); font-size: 0.72rem; font-style: normal; }
 .student-categories .student-category-with-names { display: block; }
 .student-names { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px 24px; margin: 7px 0 0; padding: 0; list-style: none; }
-.student-names li { display: block; padding: 0; border: 0; font-size: 0.82rem; }
+.student-names li { display: block; padding: 0; border: 0; font-size: 0.9rem; }
 .student-names li > span { display: flex; gap: 7px; }
-.student-names li small { display: inline; margin: 0; font-family: "Noto Serif KR", serif; font-size: 0.75rem; }
-.student-names li > em { display: block; margin-top: 2px; font-family: "Noto Serif KR", serif; font-size: 0.67rem; }
+.student-names li small { display: inline; margin: 0; font-family: "Noto Serif KR", serif; font-size: 0.82rem; }
+.student-names li > em { display: block; margin-top: 2px; font-family: "Noto Serif KR", serif; font-size: 0.73rem; }
 .project-list { min-width: 0; }
 .empty-state { min-height: 76px; padding: 20px; display: flex; align-items: center; border: 1px solid var(--line); background: var(--surface); }
 .empty-state p { margin: 0; color: var(--muted); font-size: 0.82rem; }
