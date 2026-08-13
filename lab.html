@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jun Sung Kim's research lab at Sungkyunkwan University.">
+  <meta name="description" content="Applied Micro Data Lab, an economics research group at Sungkyunkwan University led by Jun Sung Kim.">
   <title>LAB | Jun Sung Kim</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Serif+KR:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/lab-data.js" defer></script>
   <script src="assets/site.js" defer></script>
 </head>
 <body>
@@ -24,17 +25,68 @@
     </nav>
   </header>
 
-  <main class="page-shell">
-    <header class="page-heading">
-      <p class="eyebrow">LAB</p>
-      <h1>Research lab</h1>
-      <p>Information about the lab, its members, and ongoing projects will be available here.</p>
+  <main class="page-shell lab-page">
+    <header class="lab-heading">
+      <p class="eyebrow">Research group at Sungkyunkwan University</p>
+      <h1 data-lab-name>Applied Micro Data Lab</h1>
+      <p class="lab-tagline" data-lab-tagline>Applied Microeconomics · Econometrics · Data</p>
+      <p class="lab-introduction" data-lab-description>The Applied Micro Data Lab is a research group at Sungkyunkwan University working on applied microeconomics, econometrics, and data-driven empirical research.</p>
     </header>
 
-    <section class="lab-placeholder" aria-label="Lab information coming soon">
-      <p class="small-label">Coming soon</p>
-      <h2>TBA</h2>
-      <p>More information will be announced.</p>
+    <section class="lab-section lab-focus" aria-labelledby="lab-focus-title">
+      <div class="section-label">
+        <p class="small-label">What we study</p>
+        <h2 id="lab-focus-title">Research focus</h2>
+      </div>
+      <div class="focus-grid">
+        <article>
+          <span>01</span>
+          <h3>People, Places &amp; Policy</h3>
+          <p>Housing, immigration, health, education, social capital, and regional labor markets.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Technology, Labor &amp; Energy</h3>
+          <p>Technology adoption, labor-market adjustment, energy use, and applied policy evaluation.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Networks &amp; Econometrics</h3>
+          <p>Social and financial networks, peer effects, spatial interactions, and empirical methods.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="lab-section people-section" aria-labelledby="people-title">
+      <div class="section-label">
+        <p class="small-label">Research group</p>
+        <h2 id="people-title">People</h2>
+      </div>
+      <div class="people-content">
+        <article class="person-card">
+          <div class="person-monogram" aria-hidden="true">JSK</div>
+          <div>
+            <p class="person-role">Principal Investigator</p>
+            <h3>Jun Sung Kim</h3>
+            <p>Associate Professor of Economics<br>Sungkyunkwan University</p>
+            <div class="person-links">
+              <a href="research.html">Research</a>
+              <a href="assets/Jun_Sung_Kim_CV.pdf" target="_blank">CV ↗</a>
+              <a href="mailto:jskim1221@g.skku.edu">Email</a>
+            </div>
+          </div>
+        </article>
+        <aside class="students-note">
+          <p class="small-label">Current students</p>
+          <h3>Profiles forthcoming</h3>
+          <p>Information about supervised graduate and undergraduate researchers will be added after member details are confirmed.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="lab-note" aria-label="About the group">
+      <p>This page presents an academic research group centered on applied economics. Project and student information will be expanded as details are confirmed.</p>
+      <a class="text-link" href="research.html">Explore current research <span aria-hidden="true">→</span></a>
     </section>
   </main>
 
