@@ -177,6 +177,9 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .publication-list li { display: grid; grid-template-columns: 68px 1fr; gap: 22px; padding: 0 0 34px; margin-bottom: 34px; border-bottom: 1px solid var(--line); }
 .pub-year { color: var(--accent); font-size: 0.8rem; font-weight: 600; }
 .publication-list h3, .paper-card h3 { margin: -6px 0 8px; font: 500 1.38rem/1.35 "Newsreader", serif; }
+.publication-list h3 a { text-decoration: none; transition: color 160ms ease; }
+.publication-list h3 a:hover { color: var(--accent); }
+.publication-list h3 a span { color: var(--accent); font: 500 0.78rem "DM Sans", sans-serif; }
 .publication-list p, .paper-card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 
 .paper-card { display: flex; gap: 32px; align-items: center; justify-content: space-between; padding: 32px; background: var(--surface); }
@@ -192,6 +195,20 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .institution li strong { display: inline-block; min-width: 110px; color: var(--accent); font-size: 0.8rem; }
 .institution li span { float: right; color: var(--muted); font-size: 0.78rem; }
 
+.lab-placeholder {
+  min-height: 390px;
+  padding: 70px;
+  background: var(--accent);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lab-placeholder .small-label { color: #a9d2c0; }
+.lab-placeholder h2 { margin: 10px 0 4px; font: 500 clamp(4rem, 9vw, 7rem)/1 "Newsreader", serif; letter-spacing: -0.05em; }
+.lab-placeholder p { margin: 0; color: #d9ebe3; }
+
 @media (max-width: 800px) {
   .site-header { min-height: 78px; }
   .menu-toggle { display: block; padding: 9px 0; border: 0; color: var(--ink); background: none; font: 600 0.85rem "DM Sans", sans-serif; }
@@ -206,6 +223,7 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
   .page-heading { margin-bottom: 70px; }
   .research-section, .institution { grid-template-columns: 1fr; gap: 30px; }
   .paper-card { align-items: flex-start; flex-direction: column; }
+  .lab-placeholder { min-height: 320px; padding: 40px; }
 }
 
 @media (max-width: 520px) {
