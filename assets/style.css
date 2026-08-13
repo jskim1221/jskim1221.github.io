@@ -201,20 +201,20 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .institution li strong { display: inline-block; min-width: 110px; color: var(--accent); font-size: 0.8rem; }
 .institution li span { float: right; color: var(--muted); font-size: 0.78rem; }
 
-.lab-heading { max-width: 850px; margin-bottom: 82px; }
+.lab-heading { max-width: 850px; margin-bottom: 52px; }
 .lab-heading h1 { margin: 18px 0 6px; font: 500 clamp(3rem, 5.6vw, 4.9rem)/0.98 "Newsreader", serif; letter-spacing: -0.055em; }
 .lab-tagline { margin: 0 0 28px; color: var(--accent); font-size: 0.88rem; font-weight: 600; letter-spacing: 0.04em; }
 .lab-introduction { max-width: 680px; margin: 0; color: var(--muted); font-size: 1.08rem; }
-.lab-introduction-ko { max-width: 720px; margin-top: 28px; padding: 22px 24px; border-left: 3px solid var(--accent); background: var(--surface); font-family: "Noto Serif KR", serif; word-break: keep-all; }
+.lab-introduction-ko { max-width: 720px; margin-top: 20px; padding: 16px 20px; border-left: 3px solid var(--accent); background: var(--surface); font-family: "Noto Serif KR", serif; word-break: keep-all; }
 .lab-introduction-ko p { margin: 0; color: #465149; font-size: 0.94rem; line-height: 1.85; }
 .lab-introduction-ko p + p { margin-top: 7px; }
-.lab-section { display: grid; grid-template-columns: 250px 1fr; gap: 50px; padding: 38px 0 80px; border-top: 1px solid var(--ink); }
+.lab-section { display: grid; grid-template-columns: 220px 1fr; gap: 40px; padding: 30px 0 54px; border-top: 1px solid var(--ink); }
 .section-label h2 { margin: 8px 0 0; font: 500 1.65rem "Newsreader", serif; }
 .section-label p { margin: 0; }
 .focus-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
-.focus-grid article { min-height: 260px; padding: 28px; background: var(--surface); }
+.focus-grid article { min-height: 170px; padding: 22px; background: var(--surface); }
 .focus-grid article > span { color: var(--accent); font-size: 0.72rem; font-weight: 600; }
-.focus-grid h3 { margin: 50px 0 12px; font: 500 1.3rem/1.25 "Newsreader", serif; }
+.focus-grid h3 { margin: 22px 0 9px; font: 500 1.18rem/1.25 "Newsreader", serif; }
 .focus-grid p { margin: 0; color: var(--muted); font-size: 0.87rem; }
 .people-content { display: block; }
 .person-card { display: grid; grid-template-columns: 120px 1fr; gap: 30px; padding: 34px; background: var(--surface); }
