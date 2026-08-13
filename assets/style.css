@@ -240,10 +240,6 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .empty-state p { margin: 0; color: var(--muted); font-size: 0.82rem; }
 .lab-nickname { grid-column: 2; max-width: 700px; margin: -48px 0 0; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.82rem; font-style: italic; }
 .lab-nickname span { color: var(--ink); font-weight: 600; }
-.lab-note { padding: 42px; color: white; background: var(--accent); }
-.lab-note p { max-width: 700px; margin: 0 0 20px; color: #d9ebe3; }
-.lab-note .text-link { color: white; }
-.lab-note .text-link span { color: #a9d2c0; }
 
 @media (max-width: 800px) {
   .site-header { min-height: 78px; }
@@ -278,7 +274,6 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
   .lab-heading h1 { font-size: clamp(2.8rem, 13vw, 4rem); }
   .person-card { grid-template-columns: 1fr; }
   .person-marker { min-height: 70px; }
-  .lab-note { padding: 30px; }
   .student-categories li { align-items: flex-start; flex-direction: column; gap: 2px; }
   .brand { gap: 6px; }
   .brand strong { font-size: 1.08rem; }
