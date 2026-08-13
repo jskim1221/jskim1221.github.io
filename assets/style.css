@@ -216,8 +216,10 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .focus-grid h3 { margin: 50px 0 12px; font: 500 1.3rem/1.25 "Newsreader", serif; }
 .focus-grid p { margin: 0; color: var(--muted); font-size: 0.87rem; }
 .people-content { display: block; }
-.person-card { display: grid; grid-template-columns: 100px 1fr; gap: 28px; padding: 34px; background: var(--surface); }
-.person-monogram { width: 100px; height: 100px; display: grid; place-items: center; border-radius: 50%; color: white; background: var(--accent); font: 500 1.35rem "Newsreader", serif; }
+.person-card { display: grid; grid-template-columns: 120px 1fr; gap: 30px; padding: 34px; background: var(--surface); }
+.person-marker { min-height: 100px; padding-left: 18px; border-left: 3px solid var(--accent); display: flex; flex-direction: column; justify-content: center; }
+.person-marker span { color: var(--accent); font: 600 1.45rem "Newsreader", serif; }
+.person-marker small { margin-top: 4px; color: var(--muted); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; }
 .person-role { margin: 0 0 3px; color: var(--accent); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
 .person-card h3, .students-note h3 { margin: 0 0 8px; font: 500 1.5rem "Newsreader", serif; }
 .person-card p, .students-note p { color: var(--muted); }
@@ -274,7 +276,7 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
   .site-footer p { margin: 0; }
   .lab-heading h1 { font-size: clamp(2.8rem, 13vw, 4rem); }
   .person-card { grid-template-columns: 1fr; }
-  .person-monogram { width: 76px; height: 76px; }
+  .person-marker { min-height: 70px; }
   .lab-note { padding: 30px; }
   .student-categories li { align-items: flex-start; flex-direction: column; gap: 2px; }
   .brand { gap: 6px; }
