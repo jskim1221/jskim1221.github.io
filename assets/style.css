@@ -230,6 +230,7 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .student-categories { margin: 0; padding: 0; list-style: none; }
 .student-categories li { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 12px 0; border-top: 1px dotted #c7ccc7; }
 .student-categories span { font-size: 0.84rem; font-weight: 500; }
+.student-categories small { display: block; margin-top: 2px; color: var(--muted); font-size: 0.7rem; font-weight: 400; }
 .student-categories em { flex: 0 0 auto; color: var(--muted); font-size: 0.72rem; font-style: normal; }
 .project-list { min-width: 0; }
 .empty-state { min-height: 130px; padding: 32px; display: flex; align-items: flex-end; border: 1px solid var(--line); background: var(--surface); }
