@@ -189,7 +189,7 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .working-paper-list { display: grid; gap: 14px; }
 .paper-card { display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 18px 20px; background: var(--surface); }
 .paper-card .button { flex: 0 0 auto; }
-.paper-card .paper-status { margin-left: 4px; color: #a5aaa7; font-size: 0.7rem; font-style: normal; white-space: nowrap; }
+.paper-card .paper-status { display: inline; margin: 0 0 0 4px; padding: 0; border: 0; border-radius: 0; color: #a5aaa7; background: none; font-size: 0.7rem; font-style: normal; font-weight: 400; letter-spacing: 0; text-transform: none; white-space: nowrap; }
 
 .teaching-list { border-top: 1px solid var(--ink); }
 .institution { display: grid; grid-template-columns: 250px 1fr; gap: 32px; padding: 22px 0; border-bottom: 1px solid var(--line); }
