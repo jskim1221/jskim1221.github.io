@@ -239,6 +239,8 @@ main, .site-footer { width: min(calc(100% - 48px), var(--max-width)); margin-inl
 .student-names { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px 24px; margin: 7px 0 0; padding: 0; list-style: none; }
 .student-names li { display: block; padding: 0; border: 0; font-size: 0.9rem; }
 .student-names li > span { display: flex; gap: 7px; }
+.student-names li > span a { color: inherit; text-decoration-color: #b7bdb9; text-underline-offset: 3px; }
+.student-names li > span a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .student-names li small { display: inline; margin: 0; font-family: "Noto Serif KR", serif; font-size: 0.82rem; }
 .student-names li > em { display: block; margin-top: 2px; font-family: "Noto Serif KR", serif; font-size: 0.73rem; }
 .project-list { min-width: 0; }
